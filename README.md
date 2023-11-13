@@ -1,29 +1,27 @@
-# Speckle Automate function template - Python
+[![build and deploy Speckle functions](https://github.com/specklesystems/speckle_automate-window_safety_legislation_impact/actions/workflows/main.yml/badge.svg)](https://github.com/specklesystems/speckle_automate-window_safety_legislation_impact/actions/workflows/main.yml)
 
-This is a template repository for a Speckle Automate functions written in python
-using the [specklepy](https://pypi.org/project/specklepy/) SDK to interact with Speckle data.
+# Speckle Automate Function: Window Safety Legislation Impact Demo
 
-This template contains the full scaffolding required to publish a function to the automate environment.
-Also has some sane defaults for a development environment setups.
+## Overview
+The "Window Safety Legislation Impact" function in Speckle Automate is a demonstration tool designed for the AEC industry. It allows users to assess if their building models comply with upcoming safety legislation regarding window sill heights.
 
-## Getting started
+## ⚠️ Disclaimer: Conceptual Demonstration Only
+**IMPORTANT: This function is a conceptual demonstration and is not intended for production use. It aims to showcase how Speckle Automate can be used to assess compliance with specific safety standards in building designs.**
 
-1. Use this template repository to create a new repository in your own / organization's profile.
+## Functionality
+- **Legislation Compliance Check:** Analyzes window designs in AEC models against the new safety legislation requirements.
+- **Automated Impact Assessment:** Automatically identifies windows that do not comply with the sill height requirements (either at threshold level or 0.85cm from the floor).
+- **Reporting:** Generates reports highlighting non-compliant windows, aiding in planning for necessary modifications.
 
-Register the function 
+### How It Works
+The function scans building models in Speckle for windows, measuring their sill heights and comparing them against the specified safety legislation standards.
 
-### Add new dependencies
+### Potential Applications
+- **Pre-emptive Compliance:** Helps architects and builders proactively adjust designs to meet new safety standards.
+- **Safety Audits:** Assists in conducting safety audits of existing buildings for potential retrofitting.
+- **Regulatory Reporting:** Supports creating compliance reports for regulatory submissions or internal reviews.
 
-To add new python package dependencies to the project, use:
-`$ poetry add pandas`
-
-### Change launch variables
-
-describe how the launch.json should be edited
-
-### Github Codespaces
-
-Create a new repo from this template, and use the create new code.
+**Reminder:** This repository is for demonstration purposes, focusing on the impact of new window safety legislation in the AEC industry, and does not offer a practical implementation solution.
 
 ### Using this Speckle Function
 
