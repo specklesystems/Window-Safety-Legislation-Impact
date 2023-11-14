@@ -1,4 +1,4 @@
-[![build and deploy Speckle functions](https://github.com/specklesystems/speckle_automate-window_safety_legislation_impact/actions/workflows/main.yml/badge.svg)](https://github.com/specklesystems/speckle_automate-window_safety_legislation_impact/actions/workflows/main.yml)
+[![build and deploy Speckle functions](https://github.com/specklesystems/speckle-automate-code-compliance-window-safety/actions/workflows/main.yml/badge.svg)](https://github.com/specklesystems/speckle-automate-code-compliance-window-safety/actions/workflows/main.yml)
 
 # Speckle Automate Function: Window Safety Legislation Impact Demo
 
